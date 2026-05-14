@@ -1,7 +1,7 @@
 # LiDARS
 
 Structured change prediction for longitudinal chest X-ray interpretation.
-Given two consecutive patient studies, the model outputs a delta report: NEW, RESOLVED, and STABLE_PRESENT findings.
+Given patient studies, the model outputs a delta report: NEW, RESOLVED, and STABLE_PRESENT findings.
 
 Built on PadChest. Uses ResNet-18 + Liquid Neural Network conditioned on inter-study time gap.
 
